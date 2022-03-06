@@ -46,6 +46,7 @@ export default class App extends Component {
         }}>
         <Header title="MOBILE PROGRAMMING" color="#AD8B73" />
         <SubHeader subtitle="GROUP 4" />
+        {/* <SubHeader subtitle="GROUP 4" /> */}
         <Body />
         {/* <Body2 /> */}
       </View>
@@ -65,8 +66,8 @@ export default class App extends Component {
     const color = this.props.color;
     const title = this.props.title;
   dan pada bagian yang ingin diberi nilia tinggal memanggil color dan title saja
--Atau untuk lebih sederhananya kita bisa mendeklarasikannya dengan const
-    {color, title} = this.props;
+-Atau untuk lebih sederhananya kita bisa mendeklarasikannya dengan
+    const {color, title} = this.props;
 
 
 2. STATE
